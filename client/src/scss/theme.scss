@@ -1,0 +1,36 @@
+// Colours
+$BLUE: #5175ff;
+$LIGHT_BLUE: #829cff;
+
+$LIGHT_NAVY: #333950;
+$DARK_NAVY: #252938;
+
+$GREY: #747b95;
+$RED: #f05b5b;
+
+//Fonts
+@mixin H1 {
+	font-size: 56px;
+	line-height: 64px;
+}
+
+@mixin H2 {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+@mixin H3 {
+	font-size: 16px;
+	line-height: 48px;
+	text-transform: capitalize;
+}
+
+@mixin BODY_1 {
+	font-size: 18px;
+	line-height: 28px;
+}
+
+@mixin BODY_2 {
+	font-size: 16px;
+	line-height: 28px;
+}
