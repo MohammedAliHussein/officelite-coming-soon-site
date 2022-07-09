@@ -12,17 +12,22 @@ $RED: #f05b5b;
 @mixin H1 {
 	font-size: 56px;
 	line-height: 64px;
+	font-family: "Kumbh Sans";
+	font-weight: bold;
 }
 
 @mixin H2 {
 	font-size: 20px;
 	line-height: 28px;
+	font-family: "Kumbh Sans";
+	font-weight: bold;
 }
 
 @mixin H3 {
 	font-size: 16px;
 	line-height: 48px;
-	text-transform: capitalize;
+	font-family: "Kumbh Sans";
+	font-weight: bold;
 }
 
 @mixin BODY_1 {

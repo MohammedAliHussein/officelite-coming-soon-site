@@ -1,23 +1,16 @@
 <script>
-
+  import Header from "./sections/Header.svelte";
 </script>
 
 <main>
-  <div class="a">
-    <h1>asd</h1>
-  </div>
-  <h1>asd</h1>
+  <Header />
 </main>
 
 <style lang="scss">
+  @import "./scss/theme.scss";
+
   main {
-    .a {
-      h1 {
-        color: black;
-      }
-    }
-    h1 {
-      color: yellow;
-    }
+    width: 100%;
+    height: fit-content
   }
 </style>
