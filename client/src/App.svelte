@@ -7,10 +7,5 @@
 </main>
 
 <style lang="scss">
-  @import "./scss/theme.scss";
 
-  main {
-    width: 100%;
-    height: fit-content
-  }
 </style>

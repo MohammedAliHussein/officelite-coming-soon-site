@@ -1,6 +1,6 @@
 <script>
     import { fade } from "svelte/transition";
-    import { circInOut, circOut } from "svelte/easing";
+    import { circOut } from "svelte/easing";
     import { onMount } from "svelte";
 
     let ready = false;
@@ -10,7 +10,7 @@
 </script>
 
 {#if ready}
-    <h3 in:fade={{delay: 1000, duration: 250, easing: circOut}}>officelite</h3>
+    <h3 in:fade={{delay: 1000, duration: 1000, easing: circOut}}>officelite</h3>
 {/if}
 
 <style lang="scss">

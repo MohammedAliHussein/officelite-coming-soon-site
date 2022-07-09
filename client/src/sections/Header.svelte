@@ -1,17 +1,17 @@
 <script>
     import HeaderTitle from "../components/HeaderTitle.svelte";
+    import HeaderGraphic from "../components/HeaderGraphic.svelte";
 </script>
 
 <div class="header">
     <HeaderTitle />
-    <!-- <HeaderGraphic /> -->
+    <HeaderGraphic />
+    <!-- <HeaderInformation /> -->
 </div>
 
 <style lang="scss">
-    @import "../scss/mixins.scss";
-
     .header {
-        @include FLEX_CENTER_ROW;
         width: 100%;
+        height: 100vh;
     }
 </style>

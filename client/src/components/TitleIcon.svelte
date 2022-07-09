@@ -27,11 +27,12 @@
 {/if}
 
 <style lang="scss">
-    @import "../scss/mixins.scss";
     @import "../scss/theme.scss";
 
     .title-icon {
-        @include FLEX_CENTER_ROW;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: relative;
         width: 45px;
         margin-right: 9px;
@@ -55,13 +56,13 @@
 
     .overlap {
         background-color: $LIGHT_BLUE;
-        animation: grow 0.5s cubic-bezier(0, 0.55, 0.45, 1);
+        animation: grow 0.6s cubic-bezier(0, 0.55, 0.45, 1);
         clip-path: circle(50% at 100%);
     }
 
     @keyframes grow {
         0% {
-            clip-path: circle(15% at 100%);
+            clip-path: circle(70% at 100%);
             opacity: 0;
         }
         100% {
