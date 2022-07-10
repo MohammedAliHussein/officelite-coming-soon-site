@@ -13,6 +13,6 @@
 
     .header-title {
         @include FLEX_CENTER_ROW;
-        height: fit-content;
+        margin-top: 30px;
     }
 </style>
